@@ -9,7 +9,7 @@ public class Main {
         if (args.length != 0) {
             for (int i = 0; i < args.length; i++) {
                 int cu = Integer.parseInt(args[i]);
-                if (cu <= shoppe.length - 1) {
+                if (cu <= (shoppe.length - 1)) {
                     System.out.println("Produkt "+shoppe[cu]+ " za cenu "+prices[cu]+" CZK, byl pridan do kosiku.");
                     all = all + prices[cu];
                 } else {
